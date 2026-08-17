@@ -49,9 +49,6 @@ pollution-monitoring-system/
 │
 ├── database/
 │   └── schema.sql
-│
-├── screenshots/
-│
 └── README.md
 ```
 
