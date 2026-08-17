@@ -1,0 +1,50 @@
+.App {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #198754 0%, #146c43 100%);
+}
+
+.home-page {
+  padding-top: 0;
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.hero-image {
+  animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Ensure proper spacing */
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hero-section .display-4 {
+    font-size: 2rem;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+    margin-top: 1rem;
+  }
+}
